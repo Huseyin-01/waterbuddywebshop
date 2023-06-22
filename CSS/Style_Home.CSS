@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+li {
+  font-variant-position: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 1, 5rem;
+  list-style-type: none;
+  color: #163a17;
+}
+span {
+  color: #163a17;
+  border-radius: 12px;
+  /* font-size: xx-large; */
+}
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #163a17;
+}
+/* navigatie balk*/
+/* .buddy {
+    display: flex;
+    justify-content: space-between;
+}  */
+/* .Home {
+    width:10rem;
+    height:2.12rem;
+    line-height: 1.5;
+    text-decoration: none;   
+    border-radius: 12px;
+    background-color: #ABF8B0;
+    color:black;
+ }
+
+ .webshop {
+     border: none;
+     border-radius: 12px;
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 1.5rem;
+     font-weight: 800;
+     text-align: center;
+     display: inline-block;
+     justify-content: first baseline;
+     color: black;
+ }
+ nav {
+     text-align: right;
+ } */
+.nlvlag {
+  border: none;
+  height: 40px;
+  width: 50px;
+  float: right;
+  border-radius: 8px;
+}
+.envlag {
+  border: none;
+  height: 40px;
+  width: 50px;
+  border-radius: 10px;
+}
+/* h1 tekst en de foto van de plant ernaast */
+.Plantje {
+  height: 300px;
+  width: 300px;
+}
+.Planten {
+  display: flex;
+  justify-content: center;
+}
+/* plaatjes zijkant pagina*/
+img.Tak {
+  float: left;
+  border: none;
+  clear: left;
+  height: 800px;
+  width: 400px;
+}
+img.Tak2 {
+  float: right;
+  border: none;
+  clear: right;
+  height: 800px;
+  width: 400px;
+}
+/* inschrijven voor de nieuwsbrief */
+.Nieuw {
+  display: flex;
+  justify-content: center;
+}
+.Email {
+  display: flex;
+  justify-content: center;
+  align-items: z-index;
+  border-radius: 50%;
+}
+.Email2 {
+  display: flex;
+  justify-content: center;
+}
+.Web {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #abf8b0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+.Tablet {
+  height: 50px;
+}
+.Apple {
+  height: 50px;
+}
+.Google {
+  height: 50px;
+}
+.Telefoon {
+  height: 50px;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+/* h3 teksten */
+.Inhoud {
+  display: flex;
+  justify-content: center;
+}
+.Inhoud2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* onderste gedeelte, ga naar de webshop */
+.button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: black;
+  border-radius: 12px;
+  background-color: #abf8b0;
+}
+.winkelwagen {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  font-size: xx-large;
+  background-color: #abf8b0;
+}
+
+/* Schermgrootte aanpassen */
+@media only screen and (max-width: 1100px) {
+  img.Tak {
+    display: none;
+  }
+  img.Tak2 {
+    display: none;
+  }
+  .div {
+    font-size: 80px;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  span {
+    font-size: larger;
+  }
+  .App {
+    justify-content: right;
+  }
+  img.Plantje {
+    display: none;
+  }
+  .webshop {
+    justify-content: center;
+  }
+  img.bladdruppel {
+    display: none;
+  }
+  .App {
+    justify-content: center;
+  }
+  .button {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+}
+@media print {
+  img.Tak {
+    display: none;
+  }
+  img.Tak2 {
+    display: none;
+  }
+}

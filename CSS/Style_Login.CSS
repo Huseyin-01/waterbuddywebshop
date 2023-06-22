@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;700&display=swap");
+
+/* CSS variables maken het makkelijker om een kleur of letter groote terug te vinden */
+
+:root {
+  --clr-primary-dark: #163a17;
+  --clr-primary-medium: #276500;
+  --clr-primary-light: #abf8b0;
+
+  --clr-gray-medium: #898989;
+  --clr-gray-light: #e0efe1;
+
+  --clr-white: #ffffff;
+
+  --fs-desktop-1: 4.75rem;
+  --fs-desktop-2: 3rem;
+  --fs-desktop-3: 2.4rem;
+  --fs-desktop-4: 1.25rem;
+
+  --fs-mobile-1: 2.5rem;
+  --fs-mobile-2: 2.5rem;
+  --fs-mobile-3: 2rem;
+  --fs-mobile-4: 1.25rem;
+
+  --fs-print-1: 2rem;
+  --fs-print-2: 1.75rem;
+  --fs-print-3: 1.5rem;
+  --fs-print-4: 1rem;
+}
+
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+
+/* CSS voor de desktop variant */
+/* CSS for the entire body */
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  /*font-size: var(--fs-desktop-4);*/
+  color: var(--clr-primary-dark);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: var(--clr-primary-dark);
+}
+
+h1 {
+  font-size: var(--fs-desktop-1);
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+h2 {
+  font-size: var(--fs-desktop-2);
+  font-weight: 400;
+  margin-bottom: 2.25rem;
+}
+
+h3 {
+  font-size: var(--fs-desktop-3);
+  font-weight: 400;
+  margin-bottom: 2.25rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+main {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.top-text {
+  padding-top: 2rem;
+}
+
+.login { 
+  text-align: center;
+  
+}
+
+.logbutton{
+  background-color: var(--clr-gray-light);
+  color: var(--clr-primary-dark);
+  width: 10rem;
+  height: 2.125rem;
+  line-height: 1.5;  
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.logbutton:hover{
+  background-color: var(--clr-primary-light);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.loginemployee {
+  text-align: center;
+}
+
+.loginlist {
+  list-style: none;
+}
+
+
+

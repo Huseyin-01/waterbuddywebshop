@@ -1,0 +1,62 @@
+/* begin styling contact page */
+.contact-form-box {
+  background-image: url(bladdruppel.png);
+  background-repeat: repeat;
+  background-size: 29rem;
+  background-position: center;
+  margin-right: 4%;
+  margin-left: 4%;
+  width: auto;
+  height: 100vh;
+  background-color: #f5f4f2;
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form-box input {
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 20rem;
+  height: 30px;
+}
+
+.contact-form-box textarea {
+  height: 100px;
+  width: 20rem;
+}
+
+.contact-form-box button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 20.4rem;
+  height: 40px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.contact-form-box hr {
+  border-color: lightskyblue;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #45a049;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.error {
+  float: right;
+  color: darkred;
+  font-size: 12px;
+  margin-top: 0%;
+}
+
+/* einde styling contact page */

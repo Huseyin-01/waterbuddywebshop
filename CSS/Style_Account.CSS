@@ -1,0 +1,21 @@
+#account {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#links {
+    padding-right: 50px;
+}
+
+
+
+#accounttable {
+    position: fixed;
+    left: 45%;
+    right: 50%;
+    padding-top: 20px;
+
+}

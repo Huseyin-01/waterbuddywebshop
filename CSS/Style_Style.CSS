@@ -1,0 +1,249 @@
+/* CSS variables maken het makkelijker om een kleur of letter groote terug te vinden */
+:root {
+  --clr-primary-dark: #163a17;
+  --clr-primary-medium: #276500;
+  --clr-primary-light: #abf8b0;
+
+  --clr-gray-medium: #898989;
+  --clr-gray-light: #e0efe1;
+
+  --clr-white: #ffffff;
+
+  --fs-desktop-1: 4.75rem;
+  --fs-desktop-2: 3rem;
+  --fs-desktop-3: 2.4rem;
+  --fs-desktop-4: 1.25rem;
+
+  --fs-mobile-1: 2.5rem;
+  --fs-mobile-2: 2.5rem;
+  --fs-mobile-3: 2rem;
+  --fs-mobile-4: 1.25rem;
+
+  --fs-print-1: 2rem;
+  --fs-print-2: 1.75rem;
+  --fs-print-3: 1.5rem;
+  --fs-print-4: 1rem;
+}
+
+/* begin header styling */
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(238, 242, 225, 0.5);
+}
+
+.logo {
+  text-decoration: none;
+  display: inherit;
+  align-items: center;
+  margin: 13px;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: cadetblue;
+  margin-top: 8px;
+}
+
+.menu-one {
+  list-style-type: none;
+  display: inherit;
+  flex-direction: inherit;
+  align-items: center;
+  margin-right: 5rem;
+  margin-top: 1.5rem;
+}
+
+.user {
+  margin-top: 2.5rem;
+}
+
+.item-menu-one {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  color: cadetblue;
+}
+
+.item-menu-one:hover {
+  font-style: italic;
+}
+
+.item-menu-one:visited {
+  color: cadetblue;
+}
+
+.search-box {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.search-box input {
+  padding: 5px;
+  float: left;
+  border: none;
+}
+
+.search-box button {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #ccc;
+}
+
+/* styling zoekbalk */
+/* .search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 2px;
+  margin-right: 40px;
+}
+
+.search-container form {
+  border: 1px solid cadetblue;
+  border-radius: 3px;
+}
+
+.search-container input {
+  padding: 8px;
+  float: left;
+  border: none;
+}
+
+.search-container button {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #ccc;
+} */
+
+/* einde styling zoekbalk */
+
+.icons {
+  display: inherit;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 1.5rem;
+}
+
+.login-icon {
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.vlag {
+  width: 40px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+hr {
+  border-color: lightskyblue;
+  margin-right: 3%;
+  margin-left: 3%;
+  width: auto;
+  border-top-width: 2px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* einde header styling */
+
+/* begin footer styling */
+
+.buttonFooter {
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.navbuttonFooter {
+  background-color: var(--clr-gray-light);
+  color: var(--clr-primary-dark);
+  width: 10rem;
+  height: 2.125rem;
+  line-height: 1.5;
+}
+
+.navbuttonFooter:hover {
+  background-color: var(--clr-primary-light);
+}
+
+.download {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.search-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 4%;
+  margin-left: 4%;
+  width: auto;
+  height: 100vh;
+  background-image: url(bladdruppel.png);
+  background-repeat: repeat-x;
+  background-size: 50rem;
+  background-position: center;
+}
+
+/* .footer {
+  width: 100%;
+  height: 30rem;
+  background-color: #e0efe1;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  font-size: 2rem;
+}
+
+.footer img {
+  position: relative;
+  left: 52rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  max-width: 10rem;
+} */
+/* einde footer styling */
