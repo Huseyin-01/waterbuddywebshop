@@ -15,4 +15,5 @@ class MessageHandler implements Message
     {
         echo '<p>' . $this->message . '</p>';
     }
+    
 }

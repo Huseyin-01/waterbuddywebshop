@@ -1,6 +1,7 @@
 <?php
 
 require_once('DbConnection.php');
+require_once('DbUser.php');
 
 class User
 {
@@ -27,6 +28,7 @@ class User
         $stmt->execute([$id, $gebruikersnaam, $wachtwoord]);
 
         $user = $this->getUserById($id);
+        var_dump($user); die;
         if ($user) {
             echo "User created successfully.";
             return $user;
