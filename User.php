@@ -7,7 +7,7 @@ require('CrudUser.php');
 $user = new User();
 
 // Example usage: Create a new user
-$user->createUser('4', 'paul', 'pas555');
+$user->createUser('5', 'tom', 'pas855');
 
 // Example usage: Get all users
 $users = $user->getUsers();
