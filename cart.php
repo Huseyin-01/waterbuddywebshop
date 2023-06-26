@@ -36,7 +36,7 @@ else {
     
     ?>
     <script type="text/javascript">
-    <!--
+    
     function removeItem(item) {
         var answer = confirm ('Are you sure you want to remove this item?')
         if (answer)

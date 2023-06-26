@@ -1,0 +1,11 @@
+{
+    "better-phpunit.commandSuffix": "",
+    "phpunit.execPath": "C:\\Code\\WaterbuddyPHP",
+   
+    "phpunit.args": [
+        "--configuration", "./phpunit.xml.dist"
+    ],
+    "phpunit.preferRunClassTestOverQuickPickWindow": false
+
+    
+}

@@ -6,6 +6,6 @@ class Cart {
     public static float $quantity = 2;
 
     public function getTotalPrice(): float{
-        return $this->price * self::$quantity;
+        return $this-> getTotalPrice()* self::$quantity;
     }
 }
