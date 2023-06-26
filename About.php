@@ -51,7 +51,7 @@ include('header.php');
       <h2><?php echo $language["The team"]; ?></h2>
       <p>
         <?php echo $language["The team behind WaterBuddy got to know each other during the Computer Science program at Avans hogeschool in Breda."]; ?>
-        <?php echo $language["The WaterBuddy Team consists of 3 owners."]; ?>
+        <?php echo $language["The WaterBuddy Team consists of 2 owners."]; ?>
         <?php echo $language["All owners have a different function within the company and perform different tasks. Below, each owner of Waterbuddy is briefly introduced."]; ?>
       </p>
     </div>
@@ -94,23 +94,23 @@ include('header.php');
         </p>
       </div>
     </div>
-    <div class="main__introduction">
+    <!--<div class="main__introduction">
       <div class="main__introduction__name">
         <h3>Milan</h3>
       </div>
       <div class="main__introduction__text">
         <p>
-          <?php echo $language["Milan is 26 years old and after working in logistics for 2 years he made the decision to switch to a career in the IT."]; ?>
+         /* <?php echo $language["Milan is 26 years old and after working in logistics for 2 years he made the decision to switch to a career in the IT."]; ?>
           <?php echo $language["Here, after building up 1.5 years of experience, he has decided to get further training in the field of computer science."]; ?>
           <?php echo $language["Now he wants to combine all the experience he has built up with his partners to start his own business, in smart plant care."]; ?>
           <?php echo $language["Outside of working, Milan can also be found on the judo mat, the bicycle or in a good restaurant with friends and family."]; ?>
-          <?php echo $language["But for now he is focusing on his studies and the newly founded company."]; ?>
+          <?php echo $language["But for now he is focusing on his studies and the newly founded company."]; ?> */
         </p>
       </div>
       <div class="main__introduction__image main__introduction__image--left">
         <img src="CSS/Images/Milan_AboutUs.jfif" alt="Image of Roy Schrauwen" />
-      </div>
-    </div>
+      </div> 
+    </div> -->
     <!--<div class="main__introduction--flipped">
         <div class="main__introduction__image main__introduction__image--right">
           <img src="./images/pasfoto_roy.jpg" alt="Image of Roy Schrauwen" />
